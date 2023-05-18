@@ -1,0 +1,51 @@
+.reviews {
+    display: grid;
+    justify-items: center;
+    .wrapper {
+        width: 1309px;
+        height: 810px;
+        font-size: 20px;
+        margin-bottom: 50px;
+        // background-color: #FFF5F2;
+        h2 {
+           padding-bottom: 50px; 
+        }
+        .box {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            justify-items: center;
+            .photo {
+                display: grid;
+                justify-items: center;
+                .name {
+                    padding-top: 20px;
+                    a {
+                        color: #000;
+                        text-decoration: none;
+                    }
+                }
+                img {
+                    padding-bottom: 5px;
+                }
+            }
+        }
+        .rew {
+            display: grid;
+            justify-items: center;
+            grid-template-columns: 1fr;
+            .all {
+                padding-top: 49px;
+                font-size: 24px;
+            }
+            hr {
+                width: 127px;
+                border: 4px solid #ECB22E;
+            }
+            a {
+                color: #000;
+                text-decoration: none; 
+            }
+        }
+        
+    }
+}

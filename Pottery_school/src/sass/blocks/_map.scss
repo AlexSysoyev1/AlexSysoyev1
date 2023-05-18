@@ -1,0 +1,21 @@
+.map {
+    display: grid;
+	justify-items: center;
+    .wrapper{
+        width: 1309px;
+        height: 680px;
+        font-size: 20px;
+        margin-bottom: 160px;
+        // background-color: #FFF5F2;
+        .address {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-items: center;
+            padding-bottom: 36px;
+            div {
+                position: relative;
+                left: 35px;
+            }
+        }
+    }  
+}

@@ -1,0 +1,26 @@
+@import 'libs/bootstrap-reboot.min';
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+// @import 'base/variables';
+// @import 'base/mixins';
+* {
+    // font-family: 'Poppins', sans-serif;
+    font-family: 'SF Pro Display', sans-serif;
+    
+    margin: 0;
+    padding: 0;
+}
+
+@import 'blocks/menu';
+@import 'blocks/main';
+@import 'blocks/philosophy';
+@import 'blocks/training';
+@import 'blocks/materials';
+@import 'blocks/cabinet';
+@import 'blocks/burning';
+@import 'blocks/begin';
+@import 'blocks/price';
+@import 'blocks/reviews';
+@import 'blocks/faq';
+@import 'blocks/map';
+@import 'blocks/footer';
