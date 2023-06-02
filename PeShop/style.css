@@ -1,0 +1,197 @@
+/* Оформление шапки */
+header {
+	background-color: #fff;
+	color: #000000;
+	/* padding: 20px; */
+	padding-bottom: 120 px;
+  }
+
+  
+/* Оформление навигации */
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding-top: 10px;
+	display: flex;
+	align-items: center;
+	background-color: #444;
+	color: #fff;
+	padding: 25px;
+}
+  
+  .lastli {
+	flex-grow: 1;
+  }
+
+  img.cart {
+	width: 5%;
+	height: auto; /* чтобы сохранить пропорции */
+	float: right;
+  }
+  
+  nav a {
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+	font-family: Arial, sans-serif;
+  }
+
+  
+  /* Оформление основного содержимого */
+  
+.container {
+	max-width: 1200px;
+	margin: 0 auto; /* центрирует содержимое контейнера на странице */
+}
+
+
+	.slider {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.slick-slide img {
+		width: 100%;
+		display: block;
+	}
+
+
+	h1 {
+		margin-top: 42px;
+		font-size: 20px;
+		margin-left: 389px;
+		font-family: Arial, sans-serif;
+	}
+
+	.descr {
+		margin-left: 432px;
+		font-family: Arial, sans-serif;
+		font-size: 12px;
+	}
+
+	ul.products {
+		margin-left: 40px;
+	}
+
+
+	.products li {
+		list-style: none;
+		border: 1px solid #ccc;
+		padding: 10px;
+		margin: 10px;
+		width: 300px;
+		display: inline-block;
+		vertical-align: top;
+		text-align: center;
+	}
+
+	.products img {
+		max-width: 100%;
+	}
+
+	.products h3 {
+		margin-top: 7px;
+		font-family: Arial, sans-serif;
+		font-size: 12px;
+	}
+
+	li p {
+		font-family: Arial, sans-serif;
+		font-size: 12px;
+	}
+
+	.products button {
+		background-color: #007bff;
+		color: #fff;
+		border: none;
+		padding: 10px;
+		margin-top: -2px;
+		cursor: pointer;
+	}
+
+	.products button:hover {
+		background-color: #0069d9;
+	}
+
+/* Оформление подвала */
+footer {
+background-color: #333;
+color: #fff;
+padding: 20px;
+}
+
+
+
+
+.cart-container {
+    position: fixed;
+    top: 60px;
+    right: 30px;
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9fafb;
+  }
+  
+  .cart-header img {
+    width: 25px;
+  }
+  
+  .item-count {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .cart-items {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px;
+  }
+  
+  .cart-items li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .cart-items img {
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  .item-name {
+    flex-grow: 1;
+    /* font-weight: bold; */
+    font-family: Arial, sans-serif;
+	font-size: 11px;
+  }
+  
+  .item-price {
+    /* font-weight: bold; */
+    margin-right: 10px;
+  }
+  
+  .delete-btn {
+    border: none;
+    background-color: transparent;
+  }
+
+  .close-btn {
+    font-size: 12px;
+    float: right;
+    margin-right: 9px;
+    margin-bottom: 9px;
+  }
+
+  .total-price {
+    margin-left: 9px;
+  }

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Магазин рубашек</title>
+
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
+	
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="scripts.js"></script>
+
+</head>
+<body>
+	<div class="container">
+
+		<header>
+			<nav>
+				<ul>
+					<li><a href="#">ГЛАВНАЯ</a></li>
+					<li><a href="#">РУБАШКИ</a></li>
+					<li><a href="#">О НАС</a></li>
+					<li><a href="#">КОНТАКТЫ</a></li>
+					<li class="lastli"><a href="#"><img class="cart" src="icon/cart.png"></a></li>
+				</ul>
+			</nav>
+
+			<div class="slider">
+				<div><img src="img/main.jpg"></div>
+				<div><img src="img/main2.jpg"></div>
+				<div><img src="img/main3.jpg"></div>
+			  </div>
+			  
+			  <script type="text/javascript">
+				$(document).ready(function(){
+				  $('.slider').slick({
+					autoplay: true, // автоматическая прокрутка
+					autoplaySpeed: 5000, // скорость прокрутки
+					arrows: false, // убрать стрелки навигации
+					dots: true // добавить точки навигации
+				  });
+				});
+			  </script>
+			
+		</header>
+		
+
+
+		<div class="cart-container">
+			<div class="cart-header">
+			  <img src="icon/cart.png" alt="Shopping Cart"/>
+			  <span class="item-count">0</span>
+			</div>
+			<ul class="cart-items">
+			</ul>
+			<div class="cart-footer">
+			  <span class="total-price">Total: $0</span>
+			  <!-- <button class="checkout-btn">Checkout</button> -->
+			  <button class="close-btn">ЗАКРЫТЬ</button>
+			</div>
+		  </div>
+
+
+
+		<main>
+			<section class="shirts">
+					<h1>ИНТЕРНЕТ-МАГАЗИН МОДНЫХ РУБАШЕК</h1>
+					<div class="descr">СТИЛЬНЫЕ И КРАСИВЫЕ РУБАШКИ НА КАЖДЫЙ ДЕНЬ</div>
+					<ul class="products">
+						<li>
+							<img src="img/sh1.jpg" alt="Рубашка">
+							<h3>РУБАШКА С КОРОТКИМ РУКАВОМ</h3>
+							<p>ЦЕНА: $55</p>
+							<button>КУПИТЬ</button>
+						</li>
+						<li>
+							<img src="img/l1.jpg" alt="Рубашка">
+							<h3>РУБАШКА С ДЛИННЫМ РУКАВОМ</h3>
+							<p>ЦЕНА: $60</p>
+							<button>КУПИТЬ</button>
+						</li>
+						<li>
+							<img src="img/sh2.jpg" alt="Рубашка">
+							<h3>РУБАШКА С КОРОТКИМ РУКАВОМ</h3>
+							<p>ЦЕНА: $55</p>
+							<button>КУПИТЬ</button>
+						</li>
+						<li>
+							<img src="img/l2.jpg" alt="Рубашка">
+							<h3>РУБАШКА С ДЛИННЫМ РУКАВОМ</h3>
+							<p>ЦЕНА: $60</p>
+							<button>КУПИТЬ</button>
+						</li>
+						<li>
+							<img src="img/sh3.jpg" alt="Рубашка">
+							<h3>РУБАШКА С КОРОТКИМ РУКАВОМ</h3>
+							<p>ЦЕНА: $55</p>
+							<button>КУПИТЬ</button>
+						</li>
+						<li>
+							<img src="img/l3.jpg" alt="Рубашка">
+							<h3>РУБАШКА С ДЛИННЫМ РУКАВОМ</h3>
+							<p>ЦЕНА: $60</p>
+							<button>КУПИТЬ</button>
+						</li>
+					</ul>
+			</section>
+		</main>
+		  <footer>
+			<p>&copy; 2023 Магазин рубашек</p>
+		  </footer>
+	</div>	
+
+</body>
+</html>
